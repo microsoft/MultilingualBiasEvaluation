@@ -1,0 +1,1 @@
+Add Multilingual DisCo Templates from [M-Disco Benchmark](https://aka.ms/MultilingualDisco) in templates_corrected folder to run the code for evaluating gender biases in different languages. After adding the templates, src.multilingual_disco.py file needs to be run to get the final gender bias evaluation for different languages.
