@@ -1,14 +1,32 @@
-# Project
+# MultilingualBiasesEvalAndMitigate
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+<h3 align="center"> Challenges in Evaluating and Mitigating Gender Biases in Multilingual Settings </h3>
 
-As the maintainer of this project, please make a few updates:
+<h4 align="center"> Aniket Vashishtha*, Kabir Ahuja*, Sunayana Sitaram </h4>
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+<h5 align = "center"> <i>Published in Findings of ACL-2023</i> </h5>
+
+While understanding and removing gender biases in language models has been a long-standing problem in Natural Language Processing, prior research work has primarily been limited to English. In this work, we investigate some of the challenges with evaluating and mitigating biases in multilingual settings which stem from a lack of existing benchmarks and resources for bias evaluation beyond English especially for non-western context. In this paper, we first create a benchmark for evaluating gender biases in pre-trained masked language models by extending DisCo to different Indian languages using human annotations. We extend various debiasing methods to work beyond English and evaluate their effectiveness for SOTA massively multilingual models on our proposed metric. Overall, our work highlights the challenges that arise while studying social biases in multilingual settings and provides resources as well as mitigation techniques to take a step toward scaling to more languages.
+
+Paper: https://aclanthology.org/2023.findings-acl.21/
+
+If you have any questions please contact [Aniket](mailto:aniketbbx@gmail.com), [Kabir](mailto:kabirahuja2431@gmail.com) or [Sunayana](mailto:sunayana.sitaram@microsoft.com).
+
+#### Dependencies
+- Compatible with Python3.7
+- The necessary packages can be install through requirements.txt.
+
+#### Setup
+
+Finally, install the required packages by running:
+
+```shell
+pip install -r requirements.txt
+```
+
+#### Datasets
+
+Download Multilingual Disco templates from [M-Disco benchmark](https://aka.ms/MultilingualDisco) and past in the `data/templates_corrected/` directory before running the `src.multilingual_disco.py` to get the final gender biases evaluation in all the languages being inspected.
 
 ## Contributing
 
